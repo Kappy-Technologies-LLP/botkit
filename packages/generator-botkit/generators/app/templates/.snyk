@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - botkit > botframework-connector > adal-node > async > lodash:
+        patched: '2020-05-01T03:28:46.360Z'
+    - botbuilder-storage-mongodb > botbuilder > botframework-connector > adal-node > async > lodash:
+        patched: '2020-05-01T03:28:46.360Z'
+    - botkit > botbuilder > botframework-connector > adal-node > async > lodash:
+        patched: '2020-05-01T03:28:46.360Z'
+    - botkit-plugin-cms > botkit > botframework-connector > adal-node > async > lodash:
+        patched: '2020-05-01T03:28:46.360Z'
+    - botkit-plugin-cms > botkit > botbuilder > botframework-connector > adal-node > async > lodash:
+        patched: '2020-05-01T03:28:46.360Z'
